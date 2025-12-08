@@ -1,15 +1,14 @@
 schema_version: 1
 
 context:
-  name: ttags
   version: 0.4.2
 
 package:
-  name: ${{ name|lower }}
+  name: ttags
   version: ${{ version }}
 
 source:
-  url: https://github.com/npezza93/${{ name }}/archive/${{ version }}.tar.gz
+  url: https://github.com/npezza93/ttags/archive/${{ version }}.tar.gz
   sha256: 5133b847e3f599c8daf69b3bcaeaf52d3b116c32cf2e17960effa63551b5a4aa
 
 build:
@@ -39,4 +38,3 @@ about:
 extra:
   recipe-maintainers:
     - danielnachun
-
